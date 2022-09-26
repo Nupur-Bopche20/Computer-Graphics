@@ -1,0 +1,14 @@
+#include<graphics.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+void main()
+{
+  int gd = DETECT ,gm;
+  clrscr();
+  initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
+  line(200,200,300,300);
+  getch();
+  closegraph();
+}
